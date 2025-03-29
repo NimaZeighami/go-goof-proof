@@ -27,11 +27,12 @@ While working with Go, it's easy to forget certain gotchas or best practices. Th
 ## Variables 
 
 ### ⚠️ One rune literal backslash escape is not legal in a string literal: the single quote escape. It is replaced by a backslash escape for double quotes.
-
-#### ✅var s = "I'm learning Go!"
-#### ❌var s = "I\'m learning Go!"
-#### ✅var char = '\''
-#### ❌var char = '''
+```go
+✅var s = "I'm learning Go!"
+❌var s = "I\'m learning Go!"
+✅var char = '\''
+❌var char = '''
+```
 
 ### ⚠️ Go enforces simpler naming rules than many languages: it allows Unicode characters (not just English letters) but treats different scripts distinctly, prohibits variable redeclaration, applies the same naming conventions to constants as variables (though UPPER_SNAKE_CASE is conventional for global constants), mandates short names (e.g., i, k) in small scopes for clarity, and requires descriptive names in package blocks—omitting type hints but emphasizing purpose, with brevity signaling scope size and complexity control.
 
