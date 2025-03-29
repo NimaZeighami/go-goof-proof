@@ -12,7 +12,7 @@ While working with Go, it's easy to forget certain gotchas or best practices. Th
 
 ## 📖 Table of Contents
 
-1. [Variables ](##Variables)
+1. [Variables ](#Variables)
 2. [Integers](#Integers)
 3. [Concurrency Mistakes](#concurrency-mistakes)
 4. [Slices & Maps Quirks](#slices--maps-quirks)
