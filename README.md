@@ -11,12 +11,13 @@ While working with Go, it's easy to forget certain gotchas or best practices. Th
 ---
 
 ## 📖 Table of Contents
-
+#############################
 1. [Variables ](#Variables)
 2. [Integers](#Integers)
 3. [Strings](#Strings)
 4. [Constants](#Constants)
----
+#############################
+
 5. 
 6. 
 
